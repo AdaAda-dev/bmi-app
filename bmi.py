@@ -8,7 +8,7 @@ st.text("Body mass index (BMI) is a measure of body fat based on height and weig
 # Import picture
 
 from PIL import Image
-image = Image.open("bodymassindex.JPG")
+image = Image.open("bodymassindex.jpg")
 
 st.image(image, width = 500)
 
