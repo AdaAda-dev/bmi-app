@@ -7,10 +7,6 @@ st.text("Body mass index (BMI) is a measure of body fat based on height and weig
 
 # Import picture
 
-from PIL import Image
-# image = Image.open("bodymassindex.jpg")
-
-# st.image(image, width = 500)
 
 # Take the weight in Kilograms
 weight = st.number_input("Enter your weight (in kgs)")
